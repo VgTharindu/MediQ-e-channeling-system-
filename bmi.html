@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Test</title>
+    <link href="logo/assistance.png" rel="icon">
+    <link href="bmi.css" rel="stylesheet">
+    <link href ="about.css" rel="stylesheet">
+</head>
+<body>
+    <!--https://www.calculator.net/bmi-calculator.html?cage=25&csex=m&cheightfeet=5&cheightinch=10&cpound=160&cheightmeter=180&ckg=65&printit=0&ctype=metric-->
+    
+    <div class="theam">
+       <div class="logo"><img src="logo/assistance.png" class="logo_pic"></div>
+        <span class="name1">MediQ</span>
+        <span class="name2">
+            <span class="sp1">B</span>
+            <span class="sp2">M</span>
+            <span class="sp3">I</span>
+             Calculater</span>
+    </div>
+    <hr>
+
+    <div class="home_button"><a href="home.html"><img src="logo/home.png" width = "50px" style="position: absolute; right: 10px; position: fixed;" class="home"></a></div>
+
+    <div class="sub_theam">
+        <span class="sptitle">BMI introduction</span>
+        <div class="introduction">
+            <p class="description">BMI is a measurement of a person's leanness or corpulence based on their height and weight, and is intended to quantify tissue mass. It is widely used as a general indicator of whether a person has a healthy body weight for their height. Specifically, the value obtained from the calculation of BMI is used to categorize whether a person is underweight, normal weight, overweight, or obese depending on what range the value falls between. These ranges of BMI vary based on factors such as region and age, and are sometimes further divided into subcategories such as severely underweight or very severely obese. Being overweight or underweight can have significant health effects, so while BMI is an imperfect measure of healthy body weight, it is a useful indicator of whether any additional testing or action is required. Refer to the table below to see the different categories based on BMI that are used by the calculator.</p >
+        </div>
+    </div>
+
+    <p class="bmi_theam">Check your fitness in hear</p>
+
+    <div class="bmi">
+
+        <div class="calculation">
+            <div class="cal_theam">
+                <span class="cal_theam1">Calculation</span> 
+            </div>
+            <br>
+            <p class="calp1">Enter your Weight (kg) :</p>
+            <input type="number" name="height" class="height" placeholder=" Your Weight in Kg" id="inp1">
+            <br><br>
+            <p class="calp1">Enter your Height (m) :</p>
+            <input type="number" name="weight" class="weight" placeholder=" Your Height in Meters" id="inp2">
+            <br><br><br>
+            <button class="calbu1" onclick="bmi()">Check</button>
+            <button class="calbu2" onclick="clearall()">Clear</button>
+        </div>
+ 
+        <div class="result">
+            <div class="result_theam">
+                <span class="result_theam1">Your result</span>
+            </div><br>
+
+            <span class="re">BMI Value:</span>
+            <span class="re_text1" id="re_in"></span>
+            <br><br><br>
+            <span class="re">Your Status:</span>
+            <span class="re_text1" id="re_in2"></span>
+            <br><br><br>
+            <span class="re">Healthy Range :</span>
+            <div class="re_text1" id="re_in3"></div>
+            <br><br><br>
+            <span class="re">Healthy BMI range:</span>
+            <span class="re_text1" id="re_in4"></span>
+
+        </div>
+    </div>
+
+    <div class="info"> 
+        <div class="info_1">
+            <p>The Body Mass Index (BMI) Calculator can be used to calculate BMI value and corresponding weight status while taking age into consideration. Use the "Metric Units" tab for the International System of Units or the "Other Units" tab to convert units into either US or metric units. Note that the calculator also computes the Ponderal Index in addition to BMI, both of which are discussed below in detail.
+            </p>
+        </div>
+
+        <Div class="info_2">
+            <div class="info_theam">BMI chart for adults</div>
+            <p>This is a graph of BMI categories based on the World Health Organization data. The dashed lines represent subdivisions within a major categorization.</p>
+            <div class="chart"><img src="images/bmi-chart.gif" class="chart_img"></div>
+        </Div>
+        
+        <div class="info_3">
+            <div class="info_theam">Risks associated with being overweight</div>
+            <p>Being overweight increases the risk of a number of serious diseases and health conditions. Below is a list of said risks, according to the Centers for Disease Control and Prevention (CDC):</p>
+            <div class="list">
+                <ul>
+                    <li>High blood pressure</li>
+                    <li>Higher levels of LDL cholesterol, which is widely considered "bad cholesterol," lower levels of HDL cholesterol, considered to be good cholesterol in moderation, and high levels of triglycerides</li>
+                    <li>Type II diabetes</li>
+                    <li>Coronary heart disease</li>
+                    <li>Stroke</li>
+                    <li>Stroke</li>
+                    <li>Osteoarthritis, a type of joint disease caused by breakdown of joint cartilage</li>
+                    <li>Sleep apnea and breathing problems</li>
+                    <li>Certain cancers (endometrial, breast, colon, kidney, gallbladder, liver)</li>
+                    <li>Low quality of life</li>
+                    <li>Mental illnesses such as clinical depression, anxiety, and others</li>
+                    <li>Body pains and difficulty with certain physical functions</li>
+                    <li>Generally, an increased risk of mortality compared to those with a healthy BMI</li>
+                </ul>
+            </div>
+            <p>As can be seen from the list above, there are numerous negative, in some cases fatal, outcomes that may result from being overweight. Generally, a person should try to maintain a BMI below 25 kg/m2, but ideally should consult their doctor to determine whether or not they need to make any changes to their lifestyle in order to be healthier.</p>
+        </div>
+
+        <div class="info_4">
+            <div class="info_theam">Risks associated with being underweight</div>
+            <p>Being underweight has its own associated risks, listed below:</p>
+            <div class="list">
+                <ul>
+                    <li>Malnutrition, vitamin deficiencies, anemia (lowered ability to carry blood vessels)</li>
+                    <li>Osteoporosis, a disease that causes bone weakness, increasing the risk of breaking a bone</li>
+                    <li>A decrease in immune function</li>
+                    <li>Growth and development issues, particularly in children and teenagers</li>
+                    <li>Possible reproductive issues for women due to hormonal imbalances that can disrupt the menstrual cycle. Underweight women also have a higher chance of miscarriage in the first trimester</li>
+                    <li>Potential complications as a result of surgery</li>
+                    <li>Generally, an increased risk of mortality compared to those with a healthy BMI</li>
+                </ul>
+            </div>
+            <p>In some cases, being underweight can be a sign of some underlying condition or disease such as anorexia nervosa, which has its own risks. Consult your doctor if you think you or someone you know is underweight, particularly if the reason for being underweight does not seem obvious.</p>
+        </div>
+    </div>
+
+     <!--About us-->
+    <div class="bottom">
+        <div class="bt1">
+            <div class="bt_sub1">
+                <img src="logo/assistance.png" class="bt_icon">
+            </div>
+            <div class="bt_sub2">
+                <span>MediQ</span>
+            </div><div class="bt_sub3">
+                <span>The Best Medicale Patner</span>
+            </div>
+        </div>
+
+        <div class="bt2">
+            <div class="bt2_sub1">
+                Trust Your Health
+                <div class="button">Contac Us</div>
+            </div>
+            <div class="bt2_sub2">
+                <div class="call"><img src="logo/phone-call.png" class="call_pic"></div>
+                <div class="number">+9477 2010733</div>
+            </div>
+            <div class="bt2_sub3">
+                <div class="socialmedia_icon1">
+                    <img src="logo/twitter (1).png" class="smi">
+                </div>
+                <div class="socialmedia_icon2">
+                    <img src="logo/facebook (3).png" class="smi">
+                </div>
+                <div class="socialmedia_icon3">
+                    <img src="logo/instagram (1).png" class="smi">
+                </div>
+                <div class="socialmedia_icon4">
+                    <img src="logo/message.png" class="smi">
+                </div> 
+            </div>
+            <div class="bt2_sub4">
+                <img src="logo/Charity-Navigator-badge-Four-Star.png" class="bt_pic">
+            </div>
+        </div>
+        
+        <div class="bt3">
+            <div class="bt3_sub1">
+                <a href="home.html" class="bta">Home</a>
+            </div>
+            <div class="bt3_sub1">
+                <a href="channeling.html" class="bta">Meet your Doctor</a>
+            </div>
+            <div class="bt3_sub2">
+                <a href="bmi.html" class="bta">Test your BMI</a>
+            </div>
+            <div class="bt3_sub3">
+                <a href="lung.html" class="bta">Check your lung</a>
+            </div>
+            <div class="bt3_sub4">
+                <a href="medi_information.html" class="bta">Learn about diseases</a>
+            </div>
+        </div>
+
+        <div class="bt4">
+            <div class="bt4_sub1">
+                <span class="bta4">&copy MediQ</span>
+            </div>
+            <div class="bt4_sub2">
+                <span class="bta4">All rights reserved.</span>
+            </div>
+            <div class="bt4_sub3">
+                <a href="#" class="bta4 bta4_u">Privacy Policy.</a>
+            </div>
+            <div class="bt4_sub4">
+                <a href="#" class="bta4 bta4_u">Terms & Conditions.</a>
+            </div>
+            <div class="bt4_sub5">
+                <a href="#" class="bta4 bta4_u">FAQ.</a>
+            </div>
+            <div class="bt4_sub6">
+                <span class="bta4">Design and development by</span><br>
+                <a href="#" class="bta4 bta4_u">VgTharindu</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="bmi.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+.theam{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    width: 4.3pc;
+    height: 4pc;
+}
+.logo_pic{
+    width: 4pc;
+    height: 4pc;
+}
+
+.name{
+    width: 30pc;
+    height: 3.4pc;
+    padding-top: 14px;
+}
+.nb1{
+    width: 4.4pc;
+    height: 1.4pc;
+    font-size: 1.3em;
+    color: #183e9f;
+    margin-top: 2.6pc;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.info{
+    width: 3.8pc;
+}
+.nb1:hover{
+    cursor: pointer;
+    border-bottom: 1.8px solid #183e9f;
+}
+.nbdiv1{
+    margin-left: 23pc;
+}
+.name_1{
+    font-size: 3pc;
+    color: #183e9f;
+}
+.sub_name{
+    font-size: 1.5pc;
+    margin-left: 15px;
+    color: red;
+
+}
+hr{
+    background-color: #183e9f;
+}

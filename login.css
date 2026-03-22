@@ -1,0 +1,280 @@
+/* ── Base ──────────────────────────────────────────────────────────────────── */
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images2/some-sort-digital-connection-computer-depicted-soft-dreamy-atmosphere-gray-blue-tone-medical_1266280-11307.jpg);
+    min-height: 100dvh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 16px 60px;
+}
+
+/* ── Page wrapper ────────────────────────────────────────────────────────────── */
+.page-wrap {
+    width: 100%;
+    max-width: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+/* ── Doctor banner ───────────────────────────────────────────────────────────── */
+.doc-banner {
+    width: 100%;
+    background: rgba(0, 87, 164, 0.55);
+    backdrop-filter: blur(20px);
+    border: 1.5px solid rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    padding: 20px 24px;
+    color: white;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.doc-banner-warn {
+    background: rgba(200, 60, 60, 0.55);
+    padding: 16px 24px;
+    font-size: 15px;
+}
+
+.doc-banner-title {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.65);
+    margin-bottom: 14px;
+}
+
+.doc-info-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 24px;
+}
+
+.doc-info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 130px;
+}
+
+.doc-label {
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.55);
+    font-weight: 600;
+}
+
+.doc-value {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* ── Register card ───────────────────────────────────────────────────────────── */
+.register {
+    background: rgba(0, 0, 0, 0.15);
+    width: 340px;
+    padding: 28px 28px 24px;
+    border-radius: 18px;
+    border: 1.5px solid rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(28px);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+    color: white;
+    line-height: 1.6;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+label {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 500;
+}
+
+/* ── Inputs ──────────────────────────────────────────────────────────────────── */
+.inp {
+    border: 1.5px solid rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.08);
+    width: 100%;
+    height: 38px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: white;
+    padding: 0 12px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.inp::placeholder {
+    color: rgba(255, 255, 255, 0.35);
+}
+
+.inp:focus {
+    border-color: #32CDD5;
+    box-shadow: 0 0 0 3px rgba(50, 205, 213, 0.25);
+}
+
+input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; }
+
+input[type="radio"] {
+    accent-color: #32CDD5;
+    width: 16px;
+    height: 16px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+/* spacing between label/input rows */
+.register br + label,
+.register br + input {
+    display: block;
+}
+
+.register label { display: inline-block; margin-top: 12px; }
+.register input[type="text"],
+.register input[type="number"],
+.register input[type="tel"] { margin-top: 4px; margin-bottom: 0; }
+
+/* ── Submit button ───────────────────────────────────────────────────────────── */
+.submit_button {
+    width: 100%;
+    margin-top: 22px;
+    padding: 11px 0;
+    background: #32CDD5;
+    border: none;
+    border-radius: 99px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    outline: transparent 3px solid;
+    transition: box-shadow 0.2s, outline 0.1s;
+    letter-spacing: 0.3px;
+}
+
+.submit_button:focus {
+    outline: rgba(50, 205, 213, 0.55) 3px solid;
+}
+
+.submit_button:hover {
+    box-shadow:
+        0 0 10px cyan,
+        0 0 20px cyan,
+        0 0 40px rgba(50, 205, 213, 0.4);
+}
+
+/* ── Error message ───────────────────────────────────────────────────────────── */
+.error-msg {
+    background: rgba(220, 50, 50, 0.3);
+    border: 1px solid rgba(255, 100, 100, 0.5);
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 13px;
+    color: #ffd0d0;
+    margin-bottom: 12px;
+}
+
+/* ── Success overlay ─────────────────────────────────────────────────────────── */
+.success-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.success-card {
+    background: rgba(10, 30, 60, 0.85);
+    border: 1.5px solid rgba(50, 205, 213, 0.4);
+    border-radius: 20px;
+    padding: 40px 36px 32px;
+    text-align: center;
+    color: white;
+    max-width: 380px;
+    width: 90%;
+    box-shadow: 0 0 60px rgba(50, 205, 213, 0.2);
+    animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to   { transform: translateY(0);    opacity: 1; }
+}
+
+.success-icon {
+    width: 64px;
+    height: 64px;
+    background: #32CDD5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 auto 18px;
+    box-shadow: 0 0 30px rgba(50, 205, 213, 0.5);
+}
+
+.success-card h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.success-card p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 16px;
+}
+
+.success-detail {
+    background: rgba(50, 205, 213, 0.1);
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.85);
+    margin-bottom: 22px;
+    line-height: 1.6;
+}
+
+.success-btn {
+    display: inline-block;
+    padding: 10px 28px;
+    background: #32CDD5;
+    border-radius: 99px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    transition: box-shadow 0.2s;
+}
+
+.success-btn:hover {
+    box-shadow: 0 0 20px cyan, 0 0 40px rgba(50,205,213,0.3);
+}

@@ -1,0 +1,157 @@
+.home{
+    width: 2.5pc;
+    height: 2.6pc;
+    position: absolute;
+    right: 10px;
+    position: fixed;
+    top: 20px;
+}
+.home:hover{
+    cursor: pointer;
+}
+.tester{
+    border: 1px solid rgba(196, 187, 187, 0.5);
+    margin-top: 50px;
+    width: 96%;
+    height: 18pc;
+    background-color: rgba(196, 187, 187, 0.5);
+    box-shadow: 4px 4px 6px black;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.tester:hover{
+    box-shadow: 4px 8px 6px rgb(0 87 164 );
+}
+.topic{
+    border: 1px solid rgba(150, 148, 148, 0.5);
+    width: 12pc;
+    height: 2pc;
+    font-size: 1.8em;
+    margin-left: 33pc;
+    margin-top: 7px;
+    text-align: center;
+    border-radius: 10px;
+    background-color:  rgba(150, 148, 148, 0.5);
+    box-shadow: 4px 4px 6px blue;
+
+}
+.theam{
+    width: 100%;
+    height: 5pc;
+    display: inline-block;
+}
+.logo{
+    width: 4pc;
+    height: 3.5pc;
+    display: inline-block;
+    margin-top: 5px;
+}
+.name{
+    width: 9pc;
+    height: 4pc;
+    display: inline-block;
+    font-size: 3PC;
+    color: rgb(0 87 164 );
+}
+.sub_name{
+    width: 18pc;
+    height: 3pc;
+    display: inline-block;
+    font-size: 1.5PC;
+    color: red;
+
+}
+.logo_pic{
+    width: 4pc;
+    height: 4pc;
+}
+
+
+.theam2{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.sp1{
+    font-size: 23px;
+}
+.b2{
+    width: 8pc;
+    height: 2.5pc;
+    font-size: 20px;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-left: 10px;
+    color: white;
+    background-color:  rgb(0 87 164 );
+}
+#bu1{
+    margin-left: 30px;
+}
+.b2:hover{
+    cursor: pointer;
+    color: black;
+}
+.main{
+    border: 1px solid black;
+    width: 1200px;
+    height: 2pc;
+    margin-top: 20px;
+    margin-left: 55px;
+    border-radius: 15px;
+}
+.sub{
+    width: 1200px;
+    height: 2pc;
+    border-radius: 15px;
+    background-color: rgb(160, 221, 221);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 23px;
+}
+.result{
+    width: 25pc;
+    margin-top: 20px;
+    margin-left: 30pc;
+    font-size: 25px;
+    visibility: hidden;
+}
+.detail{
+    font-size: 20px;
+    margin-left: 40px;
+    visibility: hidden;
+}
+
+.info{
+    width: 70pc;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.info_topic{
+    width: 40pc;
+    height: 2.5pc;
+    margin-top: 10px;
+    font-size: 1.6pc;
+    font-weight: bold;
+}
+.info_data{
+    width: 69pc;
+    margin-top: 10px;
+    margin-left: 14px;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+}
+.pic{
+    width: 50pc;
+    margin-left: 9.5pc;
+    margin-top: 10px;
+}
+.pic_1{
+    width: 50pc;
+    height: 30pc;
+}
+iframe{
+    width: 50pc;
+    height: 30pc;
+}

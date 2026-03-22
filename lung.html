@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lung Test</title>
+    <link href="logo/assistance.png" rel="icon">
+    <link rel="stylesheet" href="lungh.css"> 
+    <link href ="about.css" rel="stylesheet">
+</head>
+<body>
+    <div class="theam">
+        <div class="logo"><img src="logo/assistance.png" class="logo_pic"></div>
+        <div class="name">MediQ</div>
+        <div class="sub_name">Check Your Lungh Here</div>
+    </div>
+    <hr>
+
+    <div class="home_button"><a href="home.html"><img src="logo/home.png" class="home"></a></div>
+
+
+    <div class="tester">
+        <div class="topic">Lungh Tester</div>
+
+        <div class="theam2">
+            <span class="sp1">Take a deep breath and press Start!</span>
+        </div>
+        <button class="b2" id="bu1" onclick="start()">Start</button>
+        <button class="b2" onclick="stop()">Stop</button>
+        <button class="b2" onclick="reset()">Rest</button>
+    
+        <div class="main">
+            <div class="sub" id="su"></div>
+        </div>
+
+        <div class="result" id="re"></div>
+
+        <div class="detail" id="de">Keep your breath as long as you can. Press Stop! when you release.</div>
+    </div>  
+
+    <div class="info">
+        <div class="info_topic">1. A simple another way to test healthy lungs yourself</div>
+        <div class="info_data">1.1. How to self-check lung health One of the ways to check lung health includes:
+            Method 1: Assess lung function by climbing stairs. This method is done by taking the stairs from the 1st floor to the 3rd floor at a slow, normal speed. If you don't have to stop to rest or you don't appear to be out of breath at the end of the exercise, your lungs are at a stable level. Conversely, if you feel short of breath and need to stop and rest several times while climbing stairs, then your lung function may be weak or unstable. Method 2: Assess lung function by blowing out candles. First, you need to prepare a candle and light it. Next, place the candle at a position about 15cm from the standing position, level with the blowing range. Then you proceed to blow out the candles. If you only need one breath to blow out the candle, your lung function is stable. If you blow a few times and the candle still doesn't go out, this could be a sign of lung problems. Method 3: Check the health of the lungs by running in place. You can do this by running in place at a moderate pace until you feel tired and have to stop. After stopping for about 5-6 minutes, the body can return to normal, this is a sign that the lungs are healthy. If it takes longer for you to return to normal, it could be a sign of weak lungs. Method 4: Assess the ability of the lungs to store oxygen and gas. First, take a deep breath, and at the same time expand your belly, then hold your breath, taking care not to let the breath out through the nose and mouth. If you can hold your breath for 30 seconds, lung function is very good. If you can only hold your breath for less than 20 seconds, your lung function may not be good or you may have a health problem.
+        </div>
+        <div class="pic">
+            <img src="images/small_20220213_144433_857139_test_phoi_khoe2_max_1800x1800_jpg_31958183c2.jpg" class="pic_1">
+        </div>
+        <div class="info_data">1.2. Laboratory methods of lung function test The methods of self-checking lung function at home are only for reference, the most accurate way to check is to perform some laboratory methods at medical facilities. Especially men aged 50 years and over, or those who smoke cigarettes and have a persistent dry cough, symptoms of coughing up sputum and blood, etc., they need to see a doctor immediately. Some tests to check lung function can be mentioned as:
+            Clinical examination: The doctor will initially perform a preliminary examination, listen to the lungs and collect information about symptoms as well as personal medical history. as well as family. Chest X-ray: A method to help doctors observe and accurately recognize abnormal manifestations in the lungs. Computed tomography of the chest : in the case of chest X-ray with suspicion of abnormal lesions, doctors may order computed tomography of the chest to help detect lung lesions. more precisely. Take a sample of the patient's sputum or blood.
+        </div>
+    </div>
+
+   
+
+    <div class="info">
+        <div class="info_topic">2. How our lungs are work</div>
+        <div class="info_data">
+            Our lungs play a critical role in the respiratory system, helping us bring in oxygen (essential for our cells) and get rid of carbon dioxide (a waste product). Here’s how they work:
+
+            <ul>
+                <li><b>Inhaling (Breathing In):</b> When you breathe in, your diaphragm (a dome-shaped muscle at the bottom of your chest) contracts and moves downward, creating more space in your chest cavity. This drop in pressure pulls air into your lungs through your nose or mouth.</li>
+
+                <li><b>Air Passage:</b> The air travels down your windpipe (trachea) and into the bronchi, which are two tubes that split off and carry air into each lung. The bronchi branch into smaller tubes called bronchioles, which end in tiny air sacs called alveoli.</li>
+
+                <li><b>Gas Exchange in Alveoli:</b> Alveoli are small, balloon-like structures with thin walls, surrounded by tiny blood vessels (capillaries). When air reaches the alveoli, oxygen passes through their walls and into the blood, while carbon dioxide moves from the blood into the alveoli.</li>
+
+                <li><b>Exhaling (Breathing Out):</b> After gas exchange, the diaphragm relaxes and moves back up, squeezing the lungs and pushing carbon dioxide-rich air back out through the same pathway.</li>
+
+                <li><b>Oxygen Transport:</b> The oxygen absorbed into the blood attaches to hemoglobin in red blood cells, which carry it throughout your body.</li>
+           </ul>
+        </div>
+        <div class="pic"><iframe src="https://www.youtube.com/embed/zrA3f5LzFeY" title="How our lungs work | 3D tour of   the lungs" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+            </iframe>
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info_topic">3. How to have a healthy lung?</div>
+        <div class="info_data">To have a healthy lung as well as a supple health, it is necessary to take measures such as:
+            Limit exposure to smoke: People who smoke or regularly breathe secondhand smoke have a high risk of developing lung cancer. lung disease, especially lung cancer. Therefore, to keep your lungs healthy, you need to stay away from tobacco smoke and give up smoking. Exercise regularly: Exercise is one of the simple measures that can help you have a strong, toned body and help your lungs get stronger. During exercise, the lungs will exchange gases more vigorously and work more efficiently. Whole-body exercises or lung-specific exercises by practicing inhaling through the abdomen and using all your strength to exhale, pushing the flow when the residue in the lungs. This deep breathing exercise will help the lungs receive oxygen and remove CO2, as well as distribute oxygen to the organs in the body more efficiently. In addition, sitting in the right posture also helps the lungs expand properly and does not affect breathing. Limit exposure to polluted environments: Regular exposure to chemicals, polluted environments, and dust will increase the risk of lung diseases. Therefore, to help keep the lungs healthy, it is necessary to limit exposure to polluted environments, chemicals and dust. Supplement nutrition and water: A balanced diet will help improve resistance. Fortified with vitamins and minerals, healthy foods. Besides, it is necessary to drink enough 1.5 liters - 2 liters of water per day for the body's activities to take place more rhythmically.
+        </div>
+        <div class="pic">
+            <img src="images/small_20220213_144548_940584_test_phoi_khoe21_max_1800x1800_jpg_3aace15fea.jpg"class="pic_1">
+        </div>
+        <div class="info_data">In summary, Lungs are one of the very important organs of the human body, especially the respiratory system. To check lung function, you can do simple measures at home such as climbing stairs, blowing out candles,... However, this measure is for reference only, to test healthy lungs or not. To be precise, laboratory tests should be performed.
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="info_topic">4. Home workout for healthy Lungh</div>
+        <div class="info_data">A healthy set of lungs can be supported by exercises that improve lung capacity, endurance, and overall respiratory function. Here’s a home workout routine to keep your lungs healthy:
+        <ol>
+            <li><b>Deep Breathing Exercises</b></li>
+                <ul type="disc">
+                    <li><b>How to Do It:</b> Sit or lie down comfortably. Take a slow, deep breath through your nose,   filling your lungs entirely. Hold for a few seconds, then slowly exhale through your mouth.</li>
+                    <li><b>Reps:</b> Repeat 10 times. Do this exercise 2-3 times a day.</li>
+                    <li><b>Benefits:</b> Helps increase lung capacity and improve oxygen flow.</li>
+                </ul>
+            <li><b>Pursed-Lip Breathing</b></li>
+                <ul type="disc">
+                    <li><b>How to Do It:</b> Inhale through your nose, then slowly exhale through pursed lips (like you’re blowing out a candle).</li>
+                    <li><b>Reps:</b> Do this for 5-10 minutes.</li>
+                    <li><b>Benefits:</b> Helps slow your breathing, making each breath more effective and easing airflow resistance.</li>
+                </ul>
+            <li><b>Diaphragmatic Breathing (Belly Breathing)</b></li>
+                <ul type="disc">
+                    <li><b>How to Do It:</b> Place one hand on your chest and the other on your belly. Take a deep breath in through your nose, focusing on expanding your belly rather than your chest. Exhale slowly through your mouth.</li>
+                    <li><b>Reps:</b> Practice for 5-10 minutes.</li>
+                    <li><b>Benefits:</b> Strengthens the diaphragm and encourages fuller lung capacity.</li>
+                </ul>
+            <li><b>Cardio (Low-Intensity)</b></li>
+                <ul type="disc">
+                    <li><b>Options:</b> Brisk walking, jumping jacks, marching in place, or dancing.</li>
+                    <li><b>How to Do It:</b> Aim for 10-20 minutes at a steady pace that elevates your heart rate but still allows you to talk.</li>
+                    <li><b>Benefits:</b> Cardio exercises improve endurance, increase lung efficiency, and help build overall stamina.
+                </ul>
+            <li><b>Stretching and Yoga</b></li>
+                <ul type="disc">
+                    <li><b>Exercises:</b> Cobra pose, cat-cow stretch, and side stretches.</li>
+                    <li><b>How to Do It:</b> Spend 5 minutes stretching and holding each position for 10-15 seconds.</li>
+                    <li><b>Benefits:</b> Helps open up the chest and improve posture, which gives your lungs more space to expand.</li>
+                </ul>
+            <li><b>Interval Training</b></li>
+                <ul type="disc">
+                    <li><b>How to Do It:</b> Alternate between 30 seconds of high-intensity activity (like fast-paced jogging in place or jumping jacks) and 1 minute of rest.</li>
+                    <li><b>Duration:</b> Repeat for 5-10 minutes.</li>
+                    <li><b>Benefits:</b> Challenges your lungs to take in more air during active periods and strengthens lung function.</li>
+                </ul>
+            <li><b>Balloon Blowing Exercise</b></li>
+                <ul type="disc">
+                    <li><b>How to Do It:</b> Take a deep breath and blow up a balloon. This can be repeated for 3-5 minutes.</li>
+                    <li><b>Benefits:</b> Helps improve lung capacity by creating resistance when you blow out.
+                    Doing these exercises regularly will help you maintain strong, healthy lungs. Make sure to consult with a healthcare provider if you have any lung conditions or experience discomfort during any of these exercises.</li>
+                </ul>
+        </ol>    
+        Doing these exercises regularly will help you maintain strong, healthy lungs. Make sure to consult with a healthcare provider if you have any lung conditions or experience discomfort during any of these exercises.
+
+        <br><br>
+        
+        To keep your lungs healthy, avoid smoking and secondhand smoke, exercise regularly with cardio to boost lung capacity, and practice deep breathing to strengthen lung function. Maintain good indoor air quality by ventilating rooms and using air purifiers, stay hydrated to keep airways clear, and limit outdoor pollution exposure by checking air quality levels. Get vaccinated to protect against respiratory infections, practice good posture to allow for full lung expansion, wash hands often to prevent infections, and go for regular checkups to detect any early lung issues. These steps can help your lungs stay strong and efficient over time.</div>
+        
+    </div>
+
+     <!--About us-->
+     <br><br><br><br>
+    <div class="bottom">
+        <div class="bt1">
+            <div class="bt_sub1">
+                <img src="logo/assistance.png" class="bt_icon">
+            </div>
+            <div class="bt_sub2">
+                <span>MediQ</span>
+            </div><div class="bt_sub3">
+                <span>The Best Medicale Patner</span>
+            </div>
+        </div>
+
+        <div class="bt2">
+            <div class="bt2_sub1">
+                Trust Your Health
+                <div class="button">Contac Us</div>
+            </div>
+            <div class="bt2_sub2">
+                <div class="call"><img src="logo/phone-call.png" class="call_pic"></div>
+                <div class="number">+9477 2010733</div>
+            </div>
+            <div class="bt2_sub3">
+                <div class="socialmedia_icon1">
+                    <img src="logo/twitter (1).png" class="smi">
+                </div>
+                <div class="socialmedia_icon2">
+                    <img src="logo/facebook (3).png" class="smi">
+                </div>
+                <div class="socialmedia_icon3">
+                    <img src="logo/instagram (1).png" class="smi">
+                </div>
+                <div class="socialmedia_icon4">
+                    <img src="logo/message.png" class="smi">
+                </div> 
+            </div>
+            <div class="bt2_sub4">
+                <img src="logo/Charity-Navigator-badge-Four-Star.png" class="bt_pic">
+            </div>
+        </div>
+        
+        <div class="bt3">
+            <div class="bt3_sub1">
+                <a href="home.html" class="bta">Home</a>
+            </div>
+            <div class="bt3_sub1">
+                <a href="channeling.html" class="bta">Meet your Doctor</a>
+            </div>
+            <div class="bt3_sub2">
+                <a href="bmi.html" class="bta">Test your BMI</a>
+            </div>
+            <div class="bt3_sub3">
+                <a href="lung.html" class="bta">Check your lung</a>
+            </div>
+            <div class="bt3_sub4">
+                <a href="medi_information.html" class="bta">Learn about diseases</a>
+            </div>
+        </div>
+
+        <div class="bt4">
+            <div class="bt4_sub1">
+                <span class="bta4">&copy MediQ</span>
+            </div>
+            <div class="bt4_sub2">
+                <span class="bta4">All rights reserved.</span>
+            </div>
+            <div class="bt4_sub3">
+                <a href="#" class="bta4 bta4_u">Privacy Policy.</a>
+            </div>
+            <div class="bt4_sub4">
+                <a href="#" class="bta4 bta4_u">Terms & Conditions.</a>
+            </div>
+            <div class="bt4_sub5">
+                <a href="#" class="bta4 bta4_u">FAQ.</a>
+            </div>
+            <div class="bt4_sub6">
+                <span class="bta4">Design and development by</span><br>
+                <a href="#" class="bta4 bta4_u">VgTharindu</a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="lungh.js"></script>
+
+</body>
+</html>

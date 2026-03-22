@@ -1,0 +1,229 @@
+
+
+.theam{
+    width: 100%;
+    height: 5pc;
+    display: inline-block;
+}
+.logo{
+    width: 4pc;
+    height: 3.5pc;
+    display: inline-block;
+    margin-top: 5px;
+}
+.name{
+    width: 9pc;
+    height: 4pc;
+    display: inline-block;
+    font-size: 3PC;
+    color: rgb(0 87 164 );
+}
+.sub_name{
+    width: 18pc;
+    height: 3pc;
+    display: inline-block;
+    font-size: 1.5PC;
+    color: red;
+}
+.logo_pic{
+    width: 4pc;
+    height: 4pc;
+}
+.nvb{
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+}
+.chn,.bmi,.lungh,.inf{
+    width: 16pc;
+    height: 4pc;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: rgb(0 87 164 );
+    color: white;
+}
+.chn:hover{
+    cursor: pointer;
+    background-color: rgb(30, 112, 184);
+}
+.bmi:hover{
+    cursor: pointer;
+    background-color: rgb(30, 112, 184);
+}
+.lungh:hover{
+    cursor: pointer;
+    background-color: rgb(30, 112, 184);
+}
+.inf:hover{
+    cursor: pointer;
+    background-color: rgb(30, 112, 184);
+}
+a{
+    color: white;
+}
+.pic{
+    width: 2.5pc;
+    height: 2.5pc;
+    margin-top: 12px;
+    margin-left: 15px;
+    display: inline-block;
+    background-image: url(logo/doctor.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+#pic_2{
+    background-image: url(logo/bmi.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#pic_3{
+    background-image: url(logo/lungs.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#pic_4{
+    background-image: url(logo/assistance.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.nm{
+    display: inline-block;
+    position: absolute;
+    margin-left: 12px;
+    margin-top: 20px;
+}
+.chn{
+    margin-left: 5.9pc;
+}
+
+.srch{
+    width: 70pc;
+    height: 8pc;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 5pc;
+    border-radius: 12px;
+    background-color: rgb(0 87 164 );
+}
+.tags{
+    width: 16pc;
+    height: 5pc;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 23px;
+}
+#tags_1{
+    margin-left: 5pc;
+}
+.tags_1{
+    width: 12pc;
+    height: 1.2pc;
+    margin-left: 4px;
+    margin-top: 4px;
+    color: white;
+}
+.tags_2{
+    width: 4pc;
+    height: 1.2pc;
+    margin-left: 8px;
+    margin-top: 4px;
+}
+.tags_1{
+    font-size: 1.1em;
+}
+.spec{
+    width: 16pc;
+    height: 2.2pc;
+    border-radius: 7px;
+    margin-top: 8px;
+}
+.tags_bu{
+    width: 6pc;
+    height: 5pc;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 8px;
+}
+.bu1{
+    border: 1px solid rgb(163 163 163);
+    width: 6pc;
+    height: 2.2pc;
+    border-radius: 7px;
+    margin-left: 20px;
+    background-color: rgb(163 163 163);
+    color: white;
+}
+.bu1:hover{
+    cursor: pointer; 
+    background-color:rgb(133, 132, 132);
+    border: rgb(133, 132, 132);
+}
+.bu1:active{color: red;}
+
+.table{
+    width: 100%;
+    height: 20pc;
+    margin-top: 30px;
+    margin-left: 7pc;
+}
+
+th{
+    border: 1px solid rgb(0 87 164);
+    width: 2pc;
+    height: 2.7pc;
+    background-color: rgb(0 87 164 );
+    color: white;
+    font-size: 19px;
+    border-radius: 7px;
+}
+td{
+    border: 1px solid rgb(0 87 164);
+    width: 2pc;
+    height: 3pc;
+    font-size: 17px;
+    padding-left: 10px;
+}
+.bt{
+    width: 12pc;
+}
+button{
+    border: 1px solid red;
+    width: 6.5pc;
+    height: 2.3pc;
+    margin-left: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 6pc;
+}
+button:hover{cursor: pointer;}
+
+.ch_bt{
+    border: 1px solid red;
+    width: 6.5pc;
+    height: 2.3pc;
+    margin-left: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.ch_bt:hover{
+    cursor: pointer;
+    background-color: rgb(255, 72, 72);
+}
+.ch_bt:active{
+    margin-top: 2.5px;
+    color:  rgb(0 87 164);
+}
+td:hover{
+    cursor: pointer;
+    background-color:  rgb(13, 142, 255);
+    color: white;
+}
+#bt_1:hover{background-color: white;}

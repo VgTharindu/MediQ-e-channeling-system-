@@ -1,0 +1,146 @@
+.bottom{
+    width: 100%;
+    height: 27pc;
+    display: flex;
+    background-color: #183e9f;
+}
+.bt1,.bt2,.bt3,.bt4{
+    width: 25%;
+    height: 26pc;
+    margin-top: 10px;
+}
+.bt_sub1{
+    margin-top: 30px;
+}
+.bt_icon{
+    width: 10pc;
+    height: 11pc;
+}
+.bt_sub2{
+    margin-top: 5px;
+    font-size: 3pc;
+    color: white;
+}
+.bt_sub3{
+    font-size: 1.1pc;
+}
+.bt2_sub1,.bt2_sub2,.bt2_sub3,.bt2_sub4{
+    height: 2pc;
+    font-size: 1.3pc;
+    padding-top: 10px;
+    color: white;
+    margin-top: 10px;
+}
+.bt2_sub1{
+    height: 6pc;
+}
+.button{
+    border: 1px solid white;
+    width: 7.4pc;
+    height: 1.7pc;
+    padding: 6px 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 80px;
+    margin-top: 27px;
+}
+.button:hover{
+    background: #28aae1;
+    cursor: pointer;
+}
+.bt2_sub2{
+    display: flex;
+    height: 2.5pc;
+}
+.call{
+    height: 2.5pc;
+    margin-left: 65px
+}
+.number{
+    height: 1.5pc;
+    margin-left: 12px;
+    margin-top: 5px;
+    text-decoration: underline;
+    font-size: 1.2pc;
+}
+.number:hover{cursor: pointer;}
+.call_pic{
+    width: 2pc;
+    height: 2.3pc;
+    padding-left: 5px;
+}
+.bt2_sub3{
+    display: flex;
+    height: 3pc;
+}
+.socialmedia_icon1,.socialmedia_icon2,.socialmedia_icon3,.socialmedia_icon4{
+    width: 2.2pc;
+    height: 2.2pc;
+    margin-left: 12px;
+}
+.socialmedia_icon1{
+    margin-left: 75px;
+} 
+.smi{
+    width: 2.2pc;
+    height: 2.2pc;
+}
+.smi:hover{cursor: pointer;}
+.bt2_sub4{
+    height: 8pc;
+}
+.bt_pic{
+    width: 7.5pc;
+    height: 7.7pc;
+}
+
+.bt3_sub1,.bt3_sub2,.bt3_sub3,.bt3_sub4{
+    height: 2pc;
+    color: white;
+    font-size: 1.3pc;
+    text-align: left;
+    margin-top: 20px;
+    
+}
+.bt3_sub1{
+    margin-top: 20px;
+}
+.bta{
+    color: white;
+    font-size: 1.2pc;
+    font-weight: 100;
+    text-decoration: none;
+    margin-left: 45px;
+}
+.bta:hover{text-decoration: underline;}
+
+.bt4_sub1,.bt4_sub2,.bt4_sub3,.bt4_sub4,.bt4_sub5,.bt4_sub6{
+    height: 2pc;
+    color: white;
+    font-size: 1.3pc;
+    text-align: left;
+    margin-top: 20px;
+}
+.bta4{
+    color: white;
+    font-size: 1.2pc;
+    font-weight: 100;
+    text-decoration: none;
+}
+.bta4_u:hover{text-decoration: underline;}
+
+.about{
+    text-align: center;
+}
+.about_sp{
+    font-size: 18px;
+}
+.bottom{
+    text-align: center;
+}
+.smlogo{
+    width: 25px;
+    position: relative;
+}

@@ -1,0 +1,201 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+.theam{
+    width: 100%;
+    height: 5pc;
+    
+}
+.logo{
+    width: 4pc;
+    height: 3.5pc;
+    display: inline-block;
+    margin-top: 5px;
+}
+.logo_pic{
+    width: 4pc;
+    height: 4pc;
+}
+.name1{
+    font-size: 3pc;
+    color:  #183e9f;
+}
+.name2{
+    font-size: 1.5pc;
+    color:  #183e9f;
+    margin-left: 15px;
+}
+
+.home{
+    width: 2.5pc;
+    height: 2.6pc;
+    position: absolute;
+    right: 10px;
+    position: fixed;
+    top: 20px;
+}
+.home:hover{
+    cursor: pointer;
+}
+
+.sp1{
+    color: orange;
+}
+.sp2{
+    color: green;
+}
+.sp3{
+    color: red;
+}
+
+.sub_theam{
+    margin-top: 20px;
+    width: 100%;
+    height: 17pc;
+    text-align: center;
+    padding-top: 10px;
+}
+.sptitle{
+    font-size: 2PC;
+    margin-top: 10px;
+}
+.introduction{
+    width: 95%;
+    height: 11pc;
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color: rgba(231, 217, 217, 0.5);
+    border:1px solid rgba(212, 191, 191, 0.5);
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px rgba(139, 131, 131, 0.5);
+    text-align: justify;
+    padding: 15px;
+}
+.description{
+    font-size: 1.2pc;
+    margin-top: 10px;
+    font-weight: 540;
+}
+.bmi_theam{
+    font-size: 2pc;
+    margin-left: 30.5pc;
+}
+.bmi{
+    width: 100%;
+    height: 30pc;
+    display: flex;
+    flex-direction: row;
+}
+.calculation,.result{
+    border:1px solid rgba(212, 191, 191, 0.5);
+    width: 29pc;
+    height: 27pc;
+    margin: 0px 20px 20px 20px;
+    background-color: rgba(207, 199, 199, 0.5);
+    box-shadow: 7px 7px 7px rgba(78, 75, 75, 0.5);
+    border-radius: 7px;
+}
+.calculation{
+    margin-left: 40px;
+}
+.result{
+    margin-left: 290px;
+}
+.cal_theam,.result_theam{
+    border: 1px solid black;
+    width: 93%;
+    height: 40px;
+    margin: 10px;
+    background-color: rgba(167, 157, 157, 0.5);
+    border:1px solid rgba(212, 191, 191, 0.5);
+    box-shadow: 7px 7px 7px rgba(78, 75, 75, 0.5);
+    border-radius: 10px;
+    padding: 7px 0px 0px 8px;
+}
+.cal_theam1,.result_theam1{
+    font-size: 1.7pc;
+}
+.calp1{
+    font-size: 1.5pc;
+    margin-left: 20px;
+}
+.height,.weight{
+    border: 1px solid black;
+    width: 17pc;
+    height: 2.2pc;
+    font-size: 1.4pc;
+    border-radius: 20px;
+    margin-left: 70px;
+}
+.calbu1,.calbu2{
+    border: 1px solid  rgb(255, 255, 255);
+    width: 7.8pc;
+    height: 2.5pc;
+    font-size: 1.5pc;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 60px;
+}
+.calbu1:hover{
+    cursor: pointer;
+    background-color: #183e9f;
+    color: white;
+}
+.calbu2:hover{
+    cursor: pointer;
+    background-color: #183e9f;
+    color: white;
+}
+.calbu1:active{color: red;}
+.calbu2:active{color: red;}
+.re{
+    margin-left: 20px;
+    font-size: 1.3pc;
+   
+}
+.re_text1{
+    margin-left: 20px;
+    height: 28px;
+    width: 15pc;
+    font-size: 1.3pc;
+}
+#re_in{
+    margin-left: 26px;
+}
+#re_in4{
+    font-weight: bold;
+}
+#re_in3{
+    width: 18pc;
+    height: 50px;
+    position: absolute;
+    right: 4pc;
+    top: 45.2pc;
+}
+
+.info{
+    width: 60pc;
+    margin-left: 45px;
+
+}
+p{
+    font-size: 19px;
+    line-height: 1.5em;
+    margin-left: 17px;
+    text-align: justify;
+}
+.info_theam{
+    font-size: 25px;
+    font-weight: bold;
+}
+.chart{
+    margin-left: 6pc;
+    margin-bottom: 20px;
+}
+.list{
+    margin-left: 35px;
+    font-size: 18px;
+}
+
