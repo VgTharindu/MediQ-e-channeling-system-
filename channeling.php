@@ -193,7 +193,7 @@
             <div class="bt4_sub3"><a href="#" class="bta4 bta4_u">Privacy Policy.</a></div>
             <div class="bt4_sub4"><a href="#" class="bta4 bta4_u">Terms &amp; Conditions.</a></div>
             <div class="bt4_sub5"><a href="#" class="bta4 bta4_u">FAQ.</a></div>
-            <div class="bt4_sub6"><span class="bta4">Design and development by</span><br><a href="#" class="bta4 bta4_u">VgTharindu</a></div>
+            <div class="bt4_sub6"><span class="bta4">Design and development by</span><br><a href="https://vgtharindu-portfolio.vercel.app/" class="bta4 bta4_u">VgTharindu</a></div>
         </div>
     </div>
 
