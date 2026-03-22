@@ -1,9 +1,9 @@
-# MediQ-e-channeling-system-
 # 🏥 MediQ — Smart Medical Companion
 
 ![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=flat-square&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-MariaDB-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-CSS3-E34F26?style=flat-square&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 > **MediQ** is a web-based medical companion platform that allows patients to find and channel doctors, calculate their BMI, test lung health, and access reliable medical information — all in one place.
@@ -44,7 +44,7 @@ Browse a curated library of **disease information** and **health tips** to stay 
 
 | Layer | Technology |
 |-------|-----------|
-| Frontend | HTML5, CSS3, Vanilla JavaScript |
+| Frontend | HTML5, CSS3, JavaScript (ES6) |
 | Backend | PHP 8.2 |
 | Database | MySQL / MariaDB (via phpMyAdmin) |
 | Server | Apache (XAMPP / WAMP) |
